@@ -16,12 +16,13 @@ end
 
 def monopoly_with_second_tier
 	monopoly = {
-	  railroads:
+	  railroads: { :pieces=> {}, :names=> {}, :rent_in_dollars=> {}
+	  }
 end
 
 def monopoly_with_third_tier
 	monopoly = {
-	  railroads: {:reading_railroad=>
+	  railroads => { pieces=>4 {:reading_railroad=>
       {},
       :pennsylvania_railroad=>
       {},
